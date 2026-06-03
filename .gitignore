@@ -1,0 +1,62 @@
+# ============================================================
+#  Secrets / configuration sensible — NE JAMAIS COMMITTER
+# ============================================================
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+*.user
+secrets.json
+
+# ============================================================
+#  Build .NET
+# ============================================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+bld/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# ============================================================
+#  Visual Studio / Rider / VS Code
+# ============================================================
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.usertasks
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+
+# ============================================================
+#  NuGet
+# ============================================================
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ============================================================
+#  Divers
+# ============================================================
+*.log
+*.tmp
+*.cache
+Thumbs.db
+.DS_Store

@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\fonts\ico-font\icofont.woff2" />
+    <None Include="wwwroot\assets\fonts\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\assets\fonts\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\assets\fonts\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\assets\fonts\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\assets\fonts\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\assets\fonts\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\assets\icons\calendar-date.svg" />
+    <None Include="wwwroot\assets\icons\calendar-days.svg" />
+    <None Include="wwwroot\assets\icons\calendar-month.svg" />
+    <None Include="wwwroot\assets\icons\calendar2-minus.svg" />
+    <None Include="wwwroot\assets\icons\cash-coin.svg" />
+    <None Include="wwwroot\assets\icons\circle-stop.svg" />
+    <None Include="wwwroot\assets\icons\money-bill-1.svg" />
+    <None Include="wwwroot\assets\icons\receipt.svg" />
+    <None Include="wwwroot\assets\images\article-3.webp" />
+    <None Include="wwwroot\assets\images\marques\Supradyn.webp" />
+    <None Include="wwwroot\assets\js\apexchart\apexcharts.min.js" />
+    <None Include="wwwroot\assets\js\apexchart\control-chart-apexcharts.js" />
+    <None Include="wwwroot\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\calendar.min.js" />
+    <None Include="wwwroot\assets\js\custom.js" />
+    <None Include="wwwroot\assets\js\datatables.min.js" />
+    <None Include="wwwroot\assets\js\dataTables.responsive.min.js" />
+    <None Include="wwwroot\assets\js\jquery.appear.js" />
+    <None Include="wwwroot\assets\js\jquery.countTo.js" />
+    <None Include="wwwroot\assets\js\jquery.min.js" />
+    <None Include="wwwroot\assets\js\jquery.vmap.min.js" />
+    <None Include="wwwroot\assets\js\jquery.vmap.sampledata.js" />
+    <None Include="wwwroot\assets\js\jquery.vmap.world.js" />
+    <None Include="wwwroot\assets\js\nice-select.min.js" />
+    <None Include="wwwroot\assets\js\popper.min.js" />
+    <None Include="wwwroot\assets\js\range.js" />
+    <None Include="wwwroot\assets\js\script.js" />
+    <None Include="wwwroot\assets\js\swiper.min.js" />
+    <None Include="wwwroot\assets\js\swiper.min.js.map" />
+    <None Include="wwwroot\assets\js\tag.js" />
+    <None Include="wwwroot\assets\js\tagging.min.js" />
+    <None Include="wwwroot\assets\marques\logo-email-diamant.webp" />
+    <None Include="wwwroot\assets\marques\logo_vendome.svg" />
+    <None Include="wwwroot\assets\marques\trojan.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\PublishProfiles\FolderProfile.pubxml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>
