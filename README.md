@@ -203,9 +203,3 @@ Sur le serveur cible, fournissez le fichier `appsettings.json` (ou les variables
 
 ---
 
-## 🔒 Sécurité
-
-- ❌ **Ne jamais committer `appsettings.json`** — il est déjà exclu par `.gitignore`.
-- 🔑 Utiliser **User Secrets** (dev) et **variables d'environnement** (prod) pour les chaînes de connexion.
-- 🔐 Éviter le compte SQL `sa` en production ; créer un utilisateur dédié à privilèges restreints.
-- 🌐 Restreindre les origines **CORS** aux domaines réellement utilisés (éviter `*` en production).
