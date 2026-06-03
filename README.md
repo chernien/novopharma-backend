@@ -185,9 +185,6 @@ Elle liste et permet de tester l'ensemble des endpoints.
 
 > La liste complète et à jour est disponible via **Swagger**.
 
-### CORS
-Les origines autorisées sont configurées dans `Program.cs` (app mobile Ionic `http://localhost:8100`, dashboard `https://msl-novopharma.tn`, dev `http://localhost:4200`, …).
-
 ---
 
 ## 📦 Déploiement
